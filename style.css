@@ -421,10 +421,12 @@ span {
 
     .about {
         min-height: 0;
+        padding 3rem;
         padding-bottom: 9rem;
     }
 
     .portfolio {
+        padding: 3rem;
         padding-bottom: 7rem;
     }
 
@@ -436,6 +438,7 @@ span {
 
     .contact {
         min-height: auto;
+        padding: 2rem;
     }
 
     .footer {

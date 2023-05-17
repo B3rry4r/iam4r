@@ -30,7 +30,7 @@ body {
 
 section {
     min-height: 100vh;
-    padding: 10rem 12% 2rem;
+    padding: 10rem 13% 2rem;
 }
 
 .header {
@@ -401,7 +401,7 @@ span {
 @media (max-width: 1200px) {
     html {
         font-size: 55%;
-        overflowX: hidden;
+        overflow-x: hidden !important;
     }
 }
 
@@ -411,7 +411,7 @@ span {
     }
 
     section {
-        padding: 10rem 3% 2rem;
+        padding: 10rem 6% 2rem;
     }
 
     .services {
@@ -447,11 +447,17 @@ span {
 }
 
 @media (max-width: 768px) {
-    body {
-overflowX: hidden;
+    
+html{
+    overflow-x: hidden !important;
     }
+    body {
+overflow-x: hidden !important;
+    }
+ 
     .header{
         width: 100%;
+        overflow: hidden;
     }
 
     #menuIcon {
@@ -507,9 +513,7 @@ overflowX: hidden;
     }
 
     .homeImg img {
-        /* width: 70vw;
-        height: 34vh;  */
-        margin: 0 auto 4rem;
+        margin: 3rem auto 4rem;
     }
 
     .about {
@@ -520,7 +524,7 @@ overflowX: hidden;
     .about img {
         /* width: 70vw;
         height: 32vh;  */
-        margin: 0 auto 4rem;
+        margin: 3rem auto 4rem;
     }
 
     .services h2 {

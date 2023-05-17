@@ -415,6 +415,7 @@ span {
 
     .services {
         padding-bottom: 7rem;
+          width: 100%;
     }
 
     .about {
@@ -477,6 +478,7 @@ span {
     .home {
         flex-direction: column;
         /* gap: 0; */
+         width: 100%; 
         justify-content: space-evenly;
     }
 
@@ -496,6 +498,7 @@ span {
 
     .about {
         flex-direction: column-reverse;
+          width: 100%;
     }
 
     .about img {
@@ -520,6 +523,7 @@ span {
 
     .footer{
         flex-direction: column-reverse;
+          width: 100%;
     }
 
     .footer p{
